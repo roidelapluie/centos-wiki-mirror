@@ -30,7 +30,7 @@ time.sleep(4)
 driver.get("https://wiki.centos.org/%s?action=edit" % arg)
 driver.find_element_by_name("savetext").clear()
 driver.find_element_by_name("savetext").send_keys(text)
-driver.find_element_by_name("comment").send_keys(str(comment))
+driver.find_element_by_name("comment").send_keys(comment.decode("utf-8"))
 driver.find_element_by_name("button_save").click()
 driver.quit()
 
