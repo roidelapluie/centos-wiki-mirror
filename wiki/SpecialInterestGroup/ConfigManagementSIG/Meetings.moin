@@ -6,4 +6,13 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/Meetings?action=info
 
 ---
-Meetings
+= Config Management SIG Meetings =
+
+The meetings are hosted on the #centos-devel IRC channel.
+
+Learn more about the CentOS project meetings [here https://www.centos.org/community/calendar/].
+
+== Meetings list ==
+
+|| '''#''' || '''Date'''                   || '''Topic'''          || '''Minutes'''                     ||
+|| 1       || Wed Mar 23 16:00:00 UTC 2016 || Bootstrap of the SIG || to be published after the meeting ||
