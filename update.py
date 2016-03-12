@@ -2,8 +2,10 @@ from selenium import webdriver
 import sys
 import time
 import os
+import subprocess
 
 arg=sys.argv[1]
+comment=subprocess.check_output(['git', '--no-pager', 'log', 'HEAD~1..HEAD', '--format=%s'])
 with open("wiki/%s.moin" % arg) as f:
     page = False
     text = ""
@@ -28,6 +30,7 @@ time.sleep(4)
 driver.get("https://wiki.centos.org/%s?action=edit" % arg)
 driver.find_element_by_name("savetext").clear()
 driver.find_element_by_name("savetext").send_keys(text)
+driver.find_element_by_name("comment").send_keys(comment)
 driver.find_element_by_name("button_save").click()
 driver.quit()
 
