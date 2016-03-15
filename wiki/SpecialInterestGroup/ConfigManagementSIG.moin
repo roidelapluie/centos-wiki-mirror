@@ -6,7 +6,7 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG?action=info
 
 ---
-#acl SteveTraylen,DavidMurphy,SamuelCassiba,BrandonJames,AlexisMousset,BenHosmer,AndyTaylor,JulienPivotto:read,write,revert,delete Default
+#acl JonathanClarke,SteveTraylen,DavidMurphy,SamuelCassiba,BrandonJames,AlexisMousset,BenHosmer,AndyTaylor,JulienPivotto:read,write,revert,delete Default
 
 == Introduction ==
 
