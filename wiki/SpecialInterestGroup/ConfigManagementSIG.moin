@@ -71,8 +71,9 @@ The benefits for the vendors will be clean RPM builds and testing of the package
 == Members ==
 
 || ''' Name ''' || ''' a.c.o nickname ''' || ''' Project ''' || '''Notes''' ||
-|| [:JulienPivotto:Julien Pivotto] || roidelapluie || Puppet || SIG Chair ||
+|| [:JulienPivotto:Julien Pivotto] || roidelapluie || Puppet || [:/Governance:SIG Chair] ||
 || [:AndyTaylor:Andy Taylor] || ataylor || Puppet || ||
+|| [:SteveTraylen:Steve Traylen] || strylen || Puppet || ||
 || [:BrandonJames:Brandon James] || bjames301 || Salt || ||
 || [:DavidMurphy:David Murphy] || dmurphy18 || Salt || ||
 || [:BenHosmer:Ben Hosmer] || bhosmer || Salt || ||
