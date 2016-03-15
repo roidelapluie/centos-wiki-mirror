@@ -31,8 +31,8 @@ do
         echo $page: bad page >&2
     elif [[ "$(md5sum < "tmp/${page}.moin")" != "$(md5sum < "wiki/${page}.moin")" ]]
     then
-      git add "wiki/${page}.moin"||true
-      git add "wiki/${page}.md5"||true
+      git add "wiki/${page}.moin" &> /dev/null||true > /dev/null
+      git add "wiki/${page}.md5" &> /dev/null||true
       echo $page
     fi
 done
