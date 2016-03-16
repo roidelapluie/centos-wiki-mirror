@@ -6,10 +6,7 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/NewMember?action=info
 
 ---
-= Joining the SIG =
-
-The Config Management SIG is open to everyone who has experience with one config management tool and who want to help us in that task.
-
-As we are still at the beginning of the SIG, we are currently quite open. To join us, show your interest in the centos-devel mailing list, and we will send you the next steps.
-
-Over time, we might want to have some more mentoring around new members, but it is not possible for the moment.
+Warning:
+You triggered the wiki's surge protection by doing too many requests in a short time.
+Please make a short break reading the stuff you already got.
+When you restart doing requests AFTER that, slow down or you might get locked out for a longer time!
