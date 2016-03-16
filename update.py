@@ -4,6 +4,7 @@ import time
 import os
 import subprocess
 
+time.sleep(4)
 arg=sys.argv[1]
 if arg == '':
     exit(0)
