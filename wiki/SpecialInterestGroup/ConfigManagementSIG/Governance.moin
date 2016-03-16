@@ -6,7 +6,38 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/Governance?action=info
 
 ---
-Warning:
-You triggered the wiki's surge protection by doing too many requests in a short time.
-Please make a short break reading the stuff you already got.
-When you restart doing requests AFTER that, slow down or you might get locked out for a longer time!
+= Config Management SIG Governance =
+
+Currently, there are no rules concerning the SIG governance.
+
+== Proposal ==
+
+||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is pending approval from the first meeting ||
+
+=== Overall ===
+
+The CentOS board is the authority above this SIG. They can take any decision regarding the SIG if they have to, without refering to the SIG before, depending on the situations that could happen.
+
+=== Chair and co-chair ===
+
+ * The Config Management SIG is directed by one chair and one co-chair
+ * The co-chair replaces the chair if the chair is on leave
+ * The chair and co-chair must be active members of the sig (e.g active in a project)
+ * If possible, the chair and co-chair should not work on the same project
+ * The chair and co-chair are elected by the members of the SIG for 12 months
+ * The CentOS board stays on top of that and can refuse that nomination or revoke the chair and/or the co-chair.
+
+=== Chair tasks and responsibilities ===
+
+ * The chair is responsible for convoking and leading meetings. If he/she can not attend, he/she must ensure that another member will lead the meeting.
+ * The chair is responsible for promoting the SIG out of the CentOS project, give it more visibility
+ * The chair is responsible for welcoming new members and new projects in the SIG, following the relevant procedures
+ * The chair is the person of contact if there are some conflicts in the SIG. If he/she is involved, you can refer to (a) the centos board sponsor (Currently Arrfab) or (b) the board.
+
+
+=== Members responsibilities ===
+
+ * Members have to follow any CentOS rules, code of conduct, etc
+ * Members can promote the SIG outside the CentOS project
+ * Members should prefer public communication channels (#centos-devel, mailing lists) if possible
+ * Members should do their best to attend the meetings and warn the SIG chair if they can not
