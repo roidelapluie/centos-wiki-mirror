@@ -6,12 +6,7 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/NewProject?action=info
 
 ---
-= Submitting a new project for the Configuration Management SIG =
-The Configuration Management SIG is community-driven. We welcome anyone to join the SIG, as well as any project that is into our scope.
-
-Procedure/Requirements:
-
- 1. Make sure you are into the scope
- 1. Discuss with the SIG members (#centos-devel, the centos-devel mailing list) about your project
- 1. Preferably find another person that would support the effort with you
- 1. Wait for a [:/../Meetings:Config Management SIG meeting] to approve your request.
+Warning:
+You triggered the wiki's surge protection by doing too many requests in a short time.
+Please make a short break reading the stuff you already got.
+When you restart doing requests AFTER that, slow down or you might get locked out for a longer time!
