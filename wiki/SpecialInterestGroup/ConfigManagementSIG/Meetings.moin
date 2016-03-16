@@ -6,26 +6,7 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/Meetings?action=info
 
 ---
-= Config Management SIG Meetings =
-
-The meetings are hosted on the #centos-devel IRC channel.
-
-Learn more about the CentOS project meetings [https://www.centos.org/community/calendar/ here].
-
-== Meetings list ==
-
-|| '''#''' || '''Date'''                   || '''Topic'''          || '''Minutes'''                     ||
-|| 1       || Wed Mar 23 16:00:00 UTC 2016 || Bootstrap of the SIG || to be published after the meeting ||
-
-== Meeting.next ==
-
-||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is there to prepare the next meeting. It will be flushed after each meeting, as its content should be in the meeting minutes. Each member of the SIG can add content there, and other topics proposed to the mailing list will be attached as well. ||
-
- * Welcome and Thanks / Presentation of the SIG for the folks in #centos-devel
- * Election of the SIG Chair AND Co-Chair / decisions about SIG governance
- * Validation of the content of the SIG presentation in the Wiki
- * Decisions about Koji tags (per projects) / Introduction to CBS (with bstinson)
- * Future plans for CI
- * How to deal with security (interactions with upstream mailing lists/Centos security team etc)
- * Schedule of the Next Meetings
- * Next steps
+Warning:
+You triggered the wiki's surge protection by doing too many requests in a short time.
+Please make a short break reading the stuff you already got.
+When you restart doing requests AFTER that, slow down or you might get locked out for a longer time!
