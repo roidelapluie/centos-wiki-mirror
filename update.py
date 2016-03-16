@@ -5,6 +5,8 @@ import os
 import subprocess
 
 arg=sys.argv[1]
+if arg == '':
+    exit(0)
 comment=subprocess.check_output(['git', '--no-pager', 'log', 'HEAD~1..HEAD', '--format=%s'])
 with open("wiki/%s.moin" % arg) as f:
     page = False
