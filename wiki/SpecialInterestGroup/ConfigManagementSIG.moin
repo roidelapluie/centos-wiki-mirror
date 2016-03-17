@@ -111,13 +111,38 @@ We want to use free software as much as possible. We use the CentOS internal inf
 
 However, as there is no code review tool integrated with git.c.o, we use github and github pull requests. We do not use gerrithub because it would be an extra layer that we do not manage and it would still require a presence on github. Still we would support any effort of the CentOS project to have an internal code review tool.
 
-We work under the [https://github.com/CentOS-Config-Management-SIG Centos Configuration Management SIG Github organisation]. [:SpecialInterestGroup/ConfigManagementSIG/Git:Learn more about the Github Organisation].
+We work under the [https://github.com/centos-sig-cfgmgmt Centos Configuration Management SIG Github organisation]. [:/Git:Learn more about the Github Organisation].
 
 == Communication ==
+
+=== Medias ===
 
 Our communication media are the #centos-devel IRC channel on freenode and the centos-devel mailing list. If needed we will branch off the mailing list and use our own.
 
 We will also have meetings every 2 weeks on the IRC channel. Meetings will be announced in the CentOS calendar https://github.com/CentOS/Calendar and changes will also be announced on the mailing-list.
+
+=== Name of the SIG ===
+
+Please respect the following guidelines regarding the name of the SIG, when you want to refer to it.
+
+The full name of the sig is Config Management SIG. We should not use any other name, and respect the case where possible.
+
+When a short form is needed, please use sig-cfgmgmt (which is the name of the group in a.c.o.). You can use this in email subjects.
+
+Valid:
+
+ * Config Managemement SIG
+ * sig-cfgmgmt
+
+Invalid:
+
+ * Configuration Management SIG
+ * Config Management Sig
+ * config management sig
+ * SIG Config Management
+ * cfgmgmt-sig
+ * sig cfgmgmt
+ * SIG-cfgmgmt
 
 == Meetings ==
 
