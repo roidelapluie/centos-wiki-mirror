@@ -14,7 +14,7 @@ The Config Management SIG is a SpecialInterestGroup that aims to bridge the gap 
 
 The Configuration Management world is polarized in several parts: on one hand, the power users, who will more likely be willing to use the latest version of the tools, produced by the vendors. The second category, conservative users, prefers to use the tools that are available in the traditional channels (distribution, EPEL, SIG...).
 
-== Links =
+== Links ==
 
  * [:/News: News]
  * [:/Git: Git organisation]
