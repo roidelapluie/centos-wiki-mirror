@@ -8,6 +8,8 @@ It comes from the following url and you can find the list of authors here:
 ---
 #acl JonathanClarke,SteveTraylen,DavidMurphy,SamuelCassiba,BrandonJames,AlexisMousset,BenHosmer,AndyTaylor,JulienPivotto:read,write,revert,delete Default
 
+= Config Management SIG =
+
 == Introduction ==
 
 The Config Management SIG is a SpecialInterestGroup that aims to bridge the gap between Config Management tools Power users and traditional users by producing and release RPM packages of several Configuration Management and Orchestration tools.
@@ -117,7 +119,7 @@ We want to use free software as much as possible. We use the CentOS internal inf
 
 However, as there is no code review tool integrated with git.c.o, we use github and github pull requests. We do not use gerrithub because it would be an extra layer that we do not manage and it would still require a presence on github. Still we would support any effort of the CentOS project to have an internal code review tool.
 
-We work under the [https://github.com/centos-sig-cfgmgmt Centos Configuration Management SIG Github organisation]. [:/Git:Learn more about the Github Organisation].
+We work under the [https://github.com/centos-sig-cfgmgmt CentOS Config Management SIG Github organisation]. [:/Git:Learn more about the Github Organisation].
 
 == Communication ==
 
@@ -139,6 +141,8 @@ Valid:
 
  * Config Managemement SIG
  * sig-cfgmgmt
+ * CentOS Config Managemement SIG
+ * centos-sig-cfgmgmt
 
 Invalid:
 
