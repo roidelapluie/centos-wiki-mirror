@@ -12,22 +12,18 @@ It comes from the following url and you can find the list of authors here:
  * Source: https://github.com/puppet/puppet
  * Vendor: [https://puppetlabs.com/ Puppetlabs]
 
+=== Commons topics ===
+
+ * [:/SoftwareCollections:Software Collections]
+
 == Puppet 4 ==
 
-=== Roadmap ===
+=== Packages ===
 
-=== Projects ===
-
-==== Commons topics ====
-
- * [:/SoftwareCollection:Software Collection]
-
-==== Details about subprojects (sub-packages) ====
-
- * [:/RPM/Puppet:Puppet]
- * [:/RPM/Hiera:Hiera]
- * [:/RPM/Puppetserver:Puppetserver]
- * [:/RPM/PuppetDB:PuppetDB]
- * [:/RPM/Ruby:Ruby]
- * [:/RPM/yamlcpp:libyamlcpp]
- * [:/RPM/Cmake3:Cmake]
+ * [:/RPM/Puppet4/Puppet:Puppet]
+ * [:/RPM/Puppet4/Hiera:Hiera]
+ * [:/RPM/Puppet4/Puppetserver:Puppetserver]
+ * [:/RPM/Puppet4/PuppetDB:PuppetDB]
+ * [:/RPM/Puppet4/Ruby:Ruby]
+ * [:/RPM/Puppet4/yamlcpp:libyamlcpp]
+ * [:/RPM/Puppet4/Cmake3:Cmake]
