@@ -119,7 +119,7 @@ We want to use free software as much as possible. We use the CentOS internal inf
 
 However, as there is no code review tool integrated with git.c.o, we use github and github pull requests. We do not use gerrithub because it would be an extra layer that we do not manage and it would still require a presence on github. Still we would support any effort of the CentOS project to have an internal code review tool.
 
-We work under the [https://github.com/centos-sig-cfgmgmt CentOS Config Management SIG Github organisation]. [:/Git:Learn more about the Github Organisation].
+We work under the [https://github.com/centos-sig-configmanagement CentOS Config Management SIG Github organisation]. [:/Git:Learn more about the Github Organisation].
 
 == Communication ==
 
@@ -135,14 +135,14 @@ Please respect the following guidelines regarding the name of the SIG, when you 
 
 The full name of the sig is Config Management SIG. We should not use any other name, and respect the case where possible.
 
-When a short form is needed, please use sig-cfgmgmt (which is the name of the group in a.c.o.). You can use this in email subjects.
+When a short form is needed, please use sig-configmanagement (which is the name of the group in a.c.o.). You can use this in email subjects.
 
 Valid:
 
  * Config Managemement SIG
- * sig-cfgmgmt
+ * sig-configmanagement
  * CentOS Config Managemement SIG
- * centos-sig-cfgmgmt
+ * centos-sig-configmanagement
 
 Invalid:
 
