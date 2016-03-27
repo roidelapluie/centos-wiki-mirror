@@ -12,7 +12,7 @@ Currently, there are no rules concerning the SIG governance.
 
 == Proposal ==
 
-||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is pending approval from the first meeting ||
+||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is pending approval from the second meeting ||
 
 === Overall ===
 
@@ -20,19 +20,19 @@ The CentOS board is the authority above this SIG. They can take any decision reg
 
 === Chair and co-chair ===
 
- * The Config Management SIG is directed by one chair and one co-chair
- * The co-chair replaces the chair if the chair is on leave
- * The chair and co-chair must be active members of the sig (e.g active in a project)
- * If possible, the chair and co-chair should not work on the same project
- * The chair and co-chair are elected by the members of the SIG for 12 months
- * The CentOS board stays on top of that and can refuse that nomination or revoke the chair and/or the co-chair.
+ * The Config Management SIG is directed by a comitee.
+ * All the members of the comitees share the same responsibilities and tasks.
+ * Comitee members must be active members of the sig (e.g active in a project)
+ * The Comitee has members coming from at least 2 different "config management tools" (subprojects)
+ * Comitee members are elected by the members of the SIG for 12 months
+ * The CentOS board stays on top of that and can refuse that nomination or revoke any comitee members
 
 === Chair tasks and responsibilities ===
 
- * The chair is responsible for convoking and leading meetings. If he/she can not attend, he/she must ensure that another member will lead the meeting.
- * The chair is responsible for promoting the SIG out of the CentOS project, give it more visibility
- * The chair is responsible for welcoming new members and new projects in the SIG, following the relevant procedures
- * The chair is the person of contact if there are some conflicts in the SIG. If he/she is involved, you can refer to (a) the centos board sponsor (Currently Arrfab) or (b) the board.
+ * Comitee members are responsible for convoking and leading meetings.
+ * Comitee members are responsible for promoting the SIG out of the CentOS project, give it more visibility.
+ * Comitee members are responsible for welcoming new members and new projects in the SIG, following the relevant procedures.
+ * Comitee members are the people of contact if there are some conflicts in the SIG. If they are involved, you can refer to (a) the centos board sponsor (Currently Arrfab) or (b) the CentOS board.
 
 
 === Members responsibilities ===
@@ -41,3 +41,4 @@ The CentOS board is the authority above this SIG. They can take any decision reg
  * Members can promote the SIG outside the CentOS project
  * Members should prefer public communication channels (#centos-devel, mailing lists) if possible
  * Members should do their best to attend the meetings and warn the SIG chair if they can not
+ * Comitee members are members and then also share those responsibilities.
