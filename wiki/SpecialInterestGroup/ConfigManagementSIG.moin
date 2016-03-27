@@ -33,7 +33,7 @@ We are targeting all the open-source configuration management tools here: Puppet
  * Public builds made using the existing CentOS Infrastructure, with extra testing
  * Propose the latest version of the tool but still offer previous builds in slotted repositories (e.g puppet41, puppet42)
  * Join the CentOS wiki/documentation effort by providing quickstarts and documentation for the config management tools
- * Open Source and publish to configmanagement tools repositories (ansible galaxy, puppet forge) any module/playbook/cookbook/... we would create in the scope of the sig, if any.
+ * Open Source and publish to cfgmgmt tools repositories (ansible galaxy, puppet forge) any module/playbook/cookbook/... we would create in the scope of the sig, if any.
 
 == Needs ==
 
@@ -57,13 +57,13 @@ Vagrant include some [https://www.vagrantup.com/docs/provisioning/ provisioning]
 
 == Benefits ==
 
-The benefits for the community will be robust packages with public spec files, following the traditional packaging standards. Other SIG will also be able to benefit from this SIG and reuse the RPM's it produces. Those packages should fit everyone's use case, from power users to traditional users, and could be available easily in CentOS (yum install configmanagement-sig-puppet4).
+The benefits for the community will be robust packages with public spec files, following the traditional packaging standards. Other SIG will also be able to benefit from this SIG and reuse the RPM's it produces. Those packages should fit everyone's use case, from power users to traditional users, and could be available easily in CentOS (yum install cfgmgmt-sig-puppet4).
 
 The benefits for the vendors will be clean RPM builds and testing of the packages, built on a community-maintained CentOS build system, working with the community and getting help to build great packages. It will also bring them visibility, and help the latest version of their tools to reach the CentOS public quickly.
 
 == Material ==
 
-[attachment:ignite-configmanagementcamp.pdf attachment:ignite-configmanagementcamp.pdf] Ignite talk given at Config Management Camp 2016
+[attachment:ignite-cfgmgmtcamp.pdf attachment:ignite-cfgmgmtcamp.pdf] Ignite talk given at Config Management Camp 2016
 
 == Projects ==
 
@@ -78,22 +78,19 @@ The benefits for the vendors will be clean RPM builds and testing of the package
 
 == Members ==
 
-|| ''' Name ''' || ''' a.c.o nickname ''' || ''' Project ''' ||
-|| [:JulienPivotto:Julien Pivotto]* || roidelapluie || Puppet ||
-|| [:AndyTaylor:Andy Taylor] || ataylor || Puppet ||
-|| [:SteveTraylen:Steve Traylen] || strylen || Puppet ||
-|| [:BrandonJames:Brandon James] || bjames301 || Salt ||
-|| [:DavidMurphy:David Murphy] || dmurphy18 || Salt ||
-|| [:BenHosmer:Ben Hosmer] || bhosmer || Salt ||
-|| [:SamuelCassiba:Samuel Cassiba] || sbc || Chef ||
-|| [:VincentVanderkussen:Vincent Vanderkussen] || vincentvdk || Ansible ||
-|| [:JonathanClarke:Jonathan Clarke] || joooooon || Rudder ||
-|| [:AlexisMousset:Alexis Mousset] || amousset || Rudder ||
-
-''* [:/Governance:Member of the comitee]''
+|| ''' Name ''' || ''' a.c.o nickname ''' || ''' Project ''' || '''Notes''' ||
+|| [:JulienPivotto:Julien Pivotto] || roidelapluie || Puppet || [:/Governance:SIG Chair] ||
+|| [:AndyTaylor:Andy Taylor] || ataylor || Puppet || ||
+|| [:SteveTraylen:Steve Traylen] || strylen || Puppet || ||
+|| [:BrandonJames:Brandon James] || bjames301 || Salt || ||
+|| [:DavidMurphy:David Murphy] || dmurphy18 || Salt || ||
+|| [:BenHosmer:Ben Hosmer] || bhosmer || Salt || ||
+|| [:SamuelCassiba:Samuel Cassiba] || sbc || Chef || ||
+|| [:VincentVanderkussen:Vincent Vanderkussen] || vincentvdk || Ansible || ||
+|| [:JonathanClarke:Jonathan Clarke] || joooooon || Rudder || ||
+|| [:AlexisMousset:Alexis Mousset] || amousset || Rudder || ||
 
 The CentOS Board member mentoring the SIG is [:FabianArrotin:Fabian Arrotin]
-
 
 [:/NewMember:How to join this Special Interest Group?]
 
@@ -106,15 +103,15 @@ The CentOS Board member mentoring the SIG is [:FabianArrotin:Fabian Arrotin]
 
 Here is a preview of the tags the sig could use.
 
- * configmanagement7-puppet-43-el7: Puppet 4.3.z
- * configmanagement7-puppet-44-el7: Puppet 4.4.z
- * configmanagement7-puppet-buildchain-el7: Build tools needed to build Puppet 4.x: cmake3, gcc4.8
- * configmanagement7-puppet-extras-el7: Community packages around puppet: puppetboard, puppetexplorer, vim-puppet
- * configmanagement7-salt-20158-el7: Salt 2015.8.y
- * configmanagement7-salt-20163-el7: Salt 2016.3.y
- * configmanagement7-chef-12-el7: Chef 12.y
- * configmanagement7-ansible-20-el7: Ansible 2.0.y
- * configmanagement7-rudder-3-el7: Rudder 3.y
+ * cfgmgmt7-puppet-43-el7: Puppet 4.3.z
+ * cfgmgmt7-puppet-44-el7: Puppet 4.4.z
+ * cfgmgmt7-puppet-buildchain-el7: Build tools needed to build Puppet 4.x: cmake3, gcc4.8
+ * cfgmgmt7-puppet-extras-el7: Community packages around puppet: puppetboard, puppetexplorer, vim-puppet
+ * cfgmgmt7-salt-20158-el7: Salt 2015.8.y
+ * cfgmgmt7-salt-20163-el7: Salt 2016.3.y
+ * cfgmgmt7-chef-12-el7: Chef 12.y
+ * cfgmgmt7-ansible-20-el7: Ansible 2.0.y
+ * cfgmgmt7-rudder-3-el7: Rudder 3.y
 
 == Tools ==
 
@@ -138,7 +135,7 @@ Please respect the following guidelines regarding the name of the SIG, when you 
 
 The full name of the sig is Config Management SIG. We should not use any other name, and respect the case where possible.
 
-When a slug is needed, please use sig-configmanagement (which is the name of the group in a.c.o.). You can use this in email subjects.
+When a short form is needed, please use sig-configmanagement (which is the name of the group in a.c.o.). You can use this in email subjects.
 
 Valid:
 
@@ -153,16 +150,15 @@ Invalid:
  * Config Management Sig
  * config management sig
  * SIG Config Management
- * configmanagement-sig
- * sig configmanagement
- * SIG-configmanagement
- * sig-cfgmgmt
+ * cfgmgmt-sig
+ * sig cfgmgmt
+ * SIG-cfgmgmt
 
 == Meetings ==
 
-The next meeting will happen on [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20160413T15 Wed Apr 13 15:00:00 UTC 2016].
+The first meeting will happen on Wed Mar 23 16:00:00 UTC 2016. During that meeting we will decide of the schedule of the next meeting. Current proposal is : every 2 weeks on Wednesday.
 
-We maintain a [:/Meetings:meeting list] with archives and topic for the next meeting.
+ * [:/Meetings:List of meetings]
 
 == Contact ==
 
