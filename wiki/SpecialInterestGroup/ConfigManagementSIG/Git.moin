@@ -14,34 +14,34 @@ We work under the [https://github.com/centos-sig-configmanagement centos-sig-con
 
 == Proposed CI flow ==
 
-* One repository = one RPM
+ * One repository = one RPM
 
 === A public member of the github organisation opens a pull request ===
 
-* A Scratch build is made on CBS
-* Jenkins runs acceptance tests on that scratch build
-* We send feedback to github
+ * A Scratch build is made on CBS
+ * Jenkins runs acceptance tests on that scratch build
+ * We send feedback to github
 
 
 === A github user opens a pull request ===
 
-* We wait until a SIG member adds a comment [test] to the pull request
-* A Scratch build is made on CBS
-* Jenkins runs acceptance tests on that scratch build
-* We send feedback to github
+ * We wait until a SIG member adds a comment [test] to the pull request
+ * A Scratch build is made on CBS
+ * Jenkins runs acceptance tests on that scratch build
+ * We send feedback to github
 
 
 === A commit is pushed to the repository ===
 
-* A testing build is made on CBS
-* Jenkins runs acceptance tests on that scratch build
-* We send feedback to github
+ * A testing build is made on CBS
+ * Jenkins runs acceptance tests on that scratch build
+ * We send feedback to github
 
 === A tag is pushed to the repository ===
 
-* A release build is made on CBS
-* Jenkins runs acceptance tests on that tag build
-* We send artifact to github releases
+ * A release build is made on CBS
+ * Jenkins runs acceptance tests on that tag build
+ * We send artifact to github releases
 
 
 === Tools ===
