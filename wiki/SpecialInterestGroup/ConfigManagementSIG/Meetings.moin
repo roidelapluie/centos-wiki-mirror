@@ -22,6 +22,6 @@ Learn more about the CentOS project meetings [https://www.centos.org/community/c
 
 ||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is there to prepare the next meeting. It will be flushed after each meeting, as its content should be in the meeting minutes. Each member of the SIG can add content there, and other topics proposed to the mailing list will be attached as well. ||
 
- * Election of the SIG Committee and validation of the Governance rules. Proposed members of the committee: JulienPivotto,
+ * Election of the SIG Committee and validation of the Governance rules. Proposed members of the committee: JulienPivotto, BenHosmer
  * Follow up on the SCL prefixes
  * Discussions about the CI proposal
