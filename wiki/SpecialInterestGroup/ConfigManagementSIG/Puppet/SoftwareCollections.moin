@@ -6,44 +6,78 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/Puppet/SoftwareCollections?action=info
 
 ---
-= Puppet Software Collections =
+<!--: spam
+Content-Type: text/html
 
-Note: This is a proposal, not yet validated by the SIG.
+<body><font style="color: white; font-size: 1px"> -->
+<body><font style="color: white; font-size: 1px"> --> -->
+</font> </font> </font> </script> </object> </blockquote> </pre>
+</table> </table> </table> </table> </table> </font> </font> </font>
+<pre>
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 1207, in run
+    handler(self.page.page_name, self)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikiaction.py", line 802, in do_raw
+    if not request.user.may.read(pagename):
+  File "/usr/lib/python2.6/site-packages/MoinMoin/security.py", line 111, in _getPermission
+    allowed = self.request.cfg.acl_before.may(self.request, self.user.name, self._right)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikiacl.py", line 178, in may
+    is_group_member = request.dicts.has_member
+  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 298, in getDicts
+    dicts.scandicts()
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 388, in scandicts
+    self.addgroup(request, pagename)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 292, in addgroup
+    grp =  Group(request, groupname)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 48, in __init__
+    self.initRegex()
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 57, in initRegex
+    cls.regex = re.compile(cls.regex, re.MULTILINE | re.UNICODE)
+  File "/usr/lib64/python2.6/re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib64/python2.6/re.py", line 238, in _compile
+    raise ValueError('Cannot process flags argument with a compiled pattern')
+ValueError: Cannot process flags argument with a compiled pattern
 
-
-== Puppet 4 ==
-
-In order to:
-
- * provide Consistency accross CentOS versions
- * Not conflict with OS/epel packages (cmake, ruby, yamlcpp)
-
-
-I think we should build a Software Collection to maintain the Puppet 4 packages.
-
-
-=== Questions ===
-
-'''Why is a SCL needed?'''
-
- * Cfacter requires at build-time cmake3
- * It also requires yamlccp which is in EPEL. We do not want to rely on EPEL or depend on upgrades they could do to the library so we probably want to recompile that in a SCL
-
-
-'''Should we build the software collection on top of the Ruby 2.0.0 or 2.2.0?'''
-
- * The best would be to have a Ruby 2.1 SCl because that is what upstram provides in their packages so we can be confident that the custom resource types and providers written by 3rd party providers will be fine.
- * If not then 2.0.0 should technically be good enough, but then would we need that for el7 also?
-
-'''Should we name the SCL puppet43 puppet4 puppet SCL?'''
-
-The ideal would be to have the SCL named ''puppet-pc1'' because pc1 is the identifier used by upstream project to identify the puppet 4 release. We could ensure that the content of the SCL == the Repository == The content of the upstream repository.
-
-'''What would be the path of the SCL?'''
-
-I think that it should then be `/opt/centos/puppet-pc1`, `/etc/opt/centos/puppet-pc1`, `/var/opt/centos/puppet-pc1`
-
-'''Should we provide a puppet4 command in the default $PATH?'''
-
- * I would like to
- * Upstream does not do it
+Additionally cgitb raised this exception:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 146, in handle
+    handler.handle()
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 566, in handle
+    doc = view.format(formatter, self.context)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 343, in format
+    return formatter.section(self.formatContent(), {'class': 'cgitb'})
+  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 38, in formatContent
+    self.formatDebugInfo(),
+  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 83, in formatDebugInfo
+    self.formatTraceback(),
+  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 96, in formatTraceback
+    return self.formatAllTracebacks(self.formatOneTraceback)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 108, in formatAllTracebacks
+    tracebacks.append(formatFuction((type, value, tb)))
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 423, in formatOneTraceback
+    self.formatter.orderedList(self.tracebackFrames(info),
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 434, in tracebackFrames
+    frames.append(frame.format(self.formatter))
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 197, in format
+    vars, highlight = self.scan()
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 286, in scan
+    vars = self.scanVariables(reader)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 298, in scanVariables
+    value = getattr(parent, token, __UNDEF__)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 298, in getDicts
+    dicts.scandicts()
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 388, in scandicts
+    self.addgroup(request, pagename)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 292, in addgroup
+    grp =  Group(request, groupname)
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 48, in __init__
+    self.initRegex()
+  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 57, in initRegex
+    cls.regex = re.compile(cls.regex, re.MULTILINE | re.UNICODE)
+  File "/usr/lib64/python2.6/re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib64/python2.6/re.py", line 238, in _compile
+    raise ValueError('Cannot process flags argument with a compiled pattern')
+ValueError: Cannot process flags argument with a compiled pattern
+</pre>
