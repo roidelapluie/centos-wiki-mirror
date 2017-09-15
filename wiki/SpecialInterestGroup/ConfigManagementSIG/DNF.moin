@@ -6,4 +6,6 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/DNF?action=info
 
 ---
+#acl IgorGnatenko:read,write,revert,delete Default
+
 Describe SpecialInterestGroup/ConfigManagementSIG/DNF here.
