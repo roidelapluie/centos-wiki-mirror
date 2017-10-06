@@ -1,0 +1,30 @@
+# Disclaimer
+
+This content is released unter the Creative Commons Attribution-ShareAlike 3.0 Unported license http://creativecommons.org/licenses/by-sa/3.0/
+It comes from the following url and you can find the list of authors here:
+- Original page: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/YUM4
+- Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/YUM4?action=info
+
+---
+## page was renamed from SpecialInterestGroup/ConfigManagementSIG/DNF
+#acl IgorGnatenko:read,write,revert,delete Default
+
+<!> '''Repository replaces some system components (more specifically, __rpm__ and __gpgme__)'''
+
+== Usage ==
+
+=== Step 0 - Enable ConfigManagement SIG Yum4 Repos ===
+
+{{{
+# yum install centos-release-yum4
+}}}
+
+=== Step 1 - Install YUM4 ===
+
+{{{
+# yum install yum4
+}}}
+
+== Bugs ==
+
+Please report any found bugs (for any components coming from ConfigManagementSIG/YUM4 repository) on [https://bugzilla.redhat.com Red Hat Bugzilla] against ''Fedora/dnf'' component (make sure to mention versions and that you use package from CentOS).
