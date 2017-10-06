@@ -6,24 +6,4 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/DNF?action=info
 
 ---
-#acl IgorGnatenko:read,write,revert,delete Default
-
-<!> '''Repository replaces some system components (more specifically, __rpm__ and __gpgme__)'''
-
-== Usage ==
-
-=== Step 0 - Enable ConfigManagement SIG Yum Repos ===
-
-{{{
-# yum install centos-release-dnf
-}}}
-
-=== Step 1 - Install DNF ===
-
-{{{
-# yum install dnf
-}}}
-
-== Bugs ==
-
-Please report any found bugs (for any components coming from ConfigManagementSIG/DNF repository) on [https://bugzilla.redhat.com Red Hat Bugzilla] against ''Fedora/dnf'' component (make sure to mention versions and that you use package from CentOS).
+#REDIRECT SpecialInterestGroup/ConfigManagementSIG/YUM4
