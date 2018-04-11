@@ -6,7 +6,7 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG?action=info
 
 ---
-#acl JonathanClarke,SteveTraylen,DavidMurphy,SamuelCassiba,BrandonJames,AlexisMousset,BenHosmer,AndyTaylor,JulienPivotto:read,write,revert,delete Default
+#acl MarekBlaha,JonathanClarke,SteveTraylen,DavidMurphy,SamuelCassiba,BrandonJames,AlexisMousset,BenHosmer,AndyTaylor,JulienPivotto:read,write,revert,delete Default
 
 = Config Management SIG =
 
@@ -93,7 +93,6 @@ The benefits for the vendors will be clean RPM builds and testing of the package
 ''* [:/Governance:Member of the comitee]''
 
 The CentOS Board member mentoring the SIG is [:FabianArrotin:Fabian Arrotin]
-
 
 [:/NewMember:How to join this Special Interest Group?]
 
