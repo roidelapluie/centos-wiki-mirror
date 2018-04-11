@@ -7,20 +7,29 @@ It comes from the following url and you can find the list of authors here:
 
 ---
 ## page was renamed from SpecialInterestGroup/ConfigManagementSIG/DNF
-#acl IgorGnatenko:read,write,revert,delete Default
+#acl MarekBlaha,IgorGnatenko:read,write,revert,delete Default
+
 <!> '''Repository replaces some system components (more specifically, __rpm__ and __gpgme__)'''
 
 == Usage ==
+
 === Step 0 - Enable ConfigManagement SIG Yum4 Repos ===
+
 {{{
 # yum install centos-release-yum4 }}}
+
 === Step 1 - Install YUM4 ===
+
 {{{
 # yum --enablerepo=centos-yum4-testing install yum4
 }}}
+
 === Step 2 - Install Plugins ===
+
 {{{
 # yum4 --enablerepo=centos-yum4-testing install dnf-plugins-core
 }}}
+
 == Bugs ==
+
 Please report any found bugs (for any components coming from ConfigManagementSIG/YUM4 repository) on [https://bugzilla.redhat.com Red Hat Bugzilla] against [https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=dnf&short_desc=CentOS:%20 Fedora/dnf component] (make sure to mention versions and that you use package from CentOS).
