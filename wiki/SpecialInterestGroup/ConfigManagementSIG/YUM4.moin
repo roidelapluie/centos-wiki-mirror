@@ -9,27 +9,41 @@ It comes from the following url and you can find the list of authors here:
 ## page was renamed from SpecialInterestGroup/ConfigManagementSIG/DNF
 #acl MarekBlaha,IgorGnatenko:read,write,revert,delete Default
 
-<!> '''Repository replaces some system components (more specifically, __rpm__ and __gpgme__)'''
+== Significant updates to our ConfigManagement Special Interest Group for YUM4 ==
 
-== Usage ==
+This provides YUM4, based on DNF technology, for testing on CentOS Linux 7/x86_64. These updates are based on feedback from our prior test release in October 2017. It includes signed packages, core DNF plugins, and uses a version of RPM very similar to and compatible with the upcoming version of CentOS 7.5.
 
-=== Step 0 - Enable ConfigManagement SIG Yum4 Repos ===
+This initiative is based on a partnership with the upstream YUM and DNF maintainers for the future of package management. Our testing thus far indicates no major problems, but we would love to find out how it fits into your existing YUM 3 workflows. So please consider filling out the [https://docs.google.com/forms/d/e/1FAIpQLSdmiu7pDF4ti79JfpTYj7tUgu3QRjPBZdlnWPJPQaTOLpGhog/viewform short survey] - your feedback helps us all get better.
+
+YUM 4 provides significant improvements such as fast dependency resolution and a stable, documented API. See the references below for detailed improvements. We have made every effort to preserve the existing end-user experience that is available with YUM 3. This is the primary reason for making YUM 4 available for testing now.
+
+
+== What’s with the YUM4 name? ==
+
+We recognize that we need to enable users to test YUM4 (/usr/bin/yum4) within their existing workflows in order to fully understand compatibility while retaining YUM version 3 (/usr/bin/yum) as the default.  Yes, they can both be used on the same system, switching back and forth.  We do not recommend this behavior, but it should work with the only known issue being that each version retains its own separate history.  So using the Rollback capability is not recommended as each version will not be aware of the other’s history.  Note that the YUM4 name is temporary for the coexistence of versions 3 & 4.
+
+== So, what all has changed? ==
+
+The [https://dnf.readthedocs.io/en/latest/ documentation] does a great job explaining the differences in great detail. In short, your existing experience using yum to install, remove, and update are identical. However, there are changes such as some of the plugins and yum utilities are now consolidated into `dnf-plugins-core`. Some of the yum CLI options changed and are either converted for you automatically or silently ignored when that behavior is automatically included. Existing custom plugins written for YUM 3 will not work with YUM 4. Please reference the [http://dnf.readthedocs.io/en/latest/api.html DNF API Reference] and [http://dnf.readthedocs.io/en/latest/api_vs_yum.html Changes in DNF hook API compared to YUM 3] links for further information.
+
+== I found a bug, what should I do? ==
+
+Please report any found bugs on [https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=dnf&short_desc=CentOS:%20 Red Hat Bugzilla against Fedora/dnf component] (make sure to mention versions and that you use package from CentOS).
+And remember to submit feedback in the [https://goo.gl/forms/UWj1M9brBC8j9GfZ2 short survey] to help us understand how it can be improved further.
+
+== Three step install, get started right away ==
 
 {{{
-# yum install centos-release-yum4 }}}
+# yum install centos-release-yum4
+# yum install yum4
+# yum4 install dnf-plugins-core }}}
 
-=== Step 1 - Install YUM4 ===
-
-{{{
-# yum --enablerepo=centos-yum4-testing install yum4
-}}}
-
-=== Step 2 - Install Plugins ===
+== I was already testing a previous version of YUM4.  How do I update? ==
 
 {{{
-# yum4 --enablerepo=centos-yum4-testing install dnf-plugins-core
-}}}
+# yum4 update centos-release-yum4
+# yum4 update yum4 }}}
 
-== Bugs ==
+----
 
-Please report any found bugs (for any components coming from ConfigManagementSIG/YUM4 repository) on [https://bugzilla.redhat.com Red Hat Bugzilla] against [https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=dnf&short_desc=CentOS:%20 Fedora/dnf component] (make sure to mention versions and that you use package from CentOS).
+Many thanks to the CentOS Project team for their assistance in making this happen!
