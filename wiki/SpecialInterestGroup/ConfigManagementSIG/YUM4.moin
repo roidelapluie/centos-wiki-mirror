@@ -13,7 +13,7 @@ It comes from the following url and you can find the list of authors here:
 
 This provides YUM4, based on DNF technology, for testing on CentOS Linux 7/x86_64. These updates are based on feedback from our prior test release in October 2017. It includes signed packages, core DNF plugins, and uses a version of RPM very similar to and compatible with the upcoming version of CentOS 7.5.
 
-This initiative is based on a partnership with the upstream YUM and DNF maintainers for the future of package management. Our testing thus far indicates no major problems, but we would love to find out how it fits into your existing YUM 3 workflows. So please consider filling out the [https://docs.google.com/forms/d/e/1FAIpQLSdmiu7pDF4ti79JfpTYj7tUgu3QRjPBZdlnWPJPQaTOLpGhog/viewform short survey] - your feedback helps us all get better.
+This initiative is based on a partnership with the upstream YUM and DNF maintainers for the future of package management. Our testing thus far indicates no major problems, but we would love to find out how it fits into your existing YUM 3 workflows. So please consider filling out the [https://goo.gl/forms/H1SL1HaEjdV9EUGH3 short survey] - your feedback helps us all get better.
 
 YUM 4 provides significant improvements such as fast dependency resolution and a stable, documented API. See the references below for detailed improvements. We have made every effort to preserve the existing end-user experience that is available with YUM 3. This is the primary reason for making YUM 4 available for testing now.
 
@@ -29,7 +29,7 @@ The [https://dnf.readthedocs.io/en/latest/ documentation] does a great job expla
 == I found a bug, what should I do? ==
 
 Please report any found bugs on [https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=dnf&short_desc=CentOS:%20 Red Hat Bugzilla against Fedora/dnf component] (make sure to mention versions and that you use package from CentOS).
-And remember to submit feedback in the [https://goo.gl/forms/UWj1M9brBC8j9GfZ2 short survey] to help us understand how it can be improved further.
+And remember to submit feedback in the [https://goo.gl/forms/H1SL1HaEjdV9EUGH3 short survey] to help us understand how it can be improved further.
 
 == Three step install, get started right away ==
 
