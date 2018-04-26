@@ -26,6 +26,7 @@ We recognize that we need to enable users to test YUM4 (/usr/bin/yum4) within th
 
 The [https://dnf.readthedocs.io/en/latest/ documentation] does a great job explaining the differences in great detail. In short, your existing experience using yum to install, remove, and update are identical. However, there are changes such as some of the plugins and yum utilities are now consolidated into `dnf-plugins-core`. Some of the yum CLI options changed and are either converted for you automatically or silently ignored when that behavior is automatically included. Existing custom plugins written for YUM 3 will not work with YUM 4. Please reference the [http://dnf.readthedocs.io/en/latest/api.html DNF API Reference] and [http://dnf.readthedocs.io/en/latest/api_vs_yum.html Changes in DNF hook API compared to YUM 3] links for further information.
 
+
 == I found a bug, what should I do? ==
 
 Please report any found bugs on [https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=dnf&short_desc=CentOS:%20 Red Hat Bugzilla against Fedora/dnf component] (make sure to mention versions and that you use package from CentOS).
@@ -43,6 +44,30 @@ And remember to submit feedback in the [https://goo.gl/forms/H1SL1HaEjdV9EUGH3 s
 {{{
 # yum4 update centos-release-yum4
 # yum4 update yum4 }}}
+
+== Which plugins are available? ==
+
+The package dnf-plugins-core contains following plugins:
+
+ * builddep
+ * config-manager
+ * copr
+ * debug-dump
+ * debug-restore
+ * debuginfo-install
+ * download
+ * needs-restarting
+ * repoclosure
+ * repograph
+ * repomanage
+ * reposync
+
+Additional available plugins and how to install them:
+
+ * leaves - {{{ # yum4 install 'dnf-command(leaves)' }}}
+ * migrate - {{{ # yum4 install 'dnf-command(migrate)' }}}
+ * show-leaves - {{{ # yum4 install 'dnf-command(show-leaves)' }}}
+ * versionlock - {{{ # yum4 install 'dnf-command(versionlock)' }}}
 
 ----
 
