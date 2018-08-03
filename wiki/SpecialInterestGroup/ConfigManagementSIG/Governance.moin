@@ -6,78 +6,39 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/Governance?action=info
 
 ---
-<!--: spam
-Content-Type: text/html
+= Config Management SIG Governance =
 
-<body><font style="color: white; font-size: 1px"> -->
-<body><font style="color: white; font-size: 1px"> --> -->
-</font> </font> </font> </script> </object> </blockquote> </pre>
-</table> </table> </table> </table> </table> </font> </font> </font>
-<pre>
-Traceback (most recent call last):
-  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 1207, in run
-    handler(self.page.page_name, self)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikiaction.py", line 802, in do_raw
-    if not request.user.may.read(pagename):
-  File "/usr/lib/python2.6/site-packages/MoinMoin/security.py", line 111, in _getPermission
-    allowed = self.request.cfg.acl_before.may(self.request, self.user.name, self._right)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikiacl.py", line 178, in may
-    is_group_member = request.dicts.has_member
-  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 298, in getDicts
-    dicts.scandicts()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 388, in scandicts
-    self.addgroup(request, pagename)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 292, in addgroup
-    grp =  Group(request, groupname)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 48, in __init__
-    self.initRegex()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 57, in initRegex
-    cls.regex = re.compile(cls.regex, re.MULTILINE | re.UNICODE)
-  File "/usr/lib64/python2.6/re.py", line 190, in compile
-    return _compile(pattern, flags)
-  File "/usr/lib64/python2.6/re.py", line 238, in _compile
-    raise ValueError('Cannot process flags argument with a compiled pattern')
-ValueError: Cannot process flags argument with a compiled pattern
+Currently, there are no rules concerning the SIG governance.
 
-Additionally cgitb raised this exception:
-Traceback (most recent call last):
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 146, in handle
-    handler.handle()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 566, in handle
-    doc = view.format(formatter, self.context)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 343, in format
-    return formatter.section(self.formatContent(), {'class': 'cgitb'})
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 38, in formatContent
-    self.formatDebugInfo(),
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 83, in formatDebugInfo
-    self.formatTraceback(),
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 96, in formatTraceback
-    return self.formatAllTracebacks(self.formatOneTraceback)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 108, in formatAllTracebacks
-    tracebacks.append(formatFuction((type, value, tb)))
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 423, in formatOneTraceback
-    self.formatter.orderedList(self.tracebackFrames(info),
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 434, in tracebackFrames
-    frames.append(frame.format(self.formatter))
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 197, in format
-    vars, highlight = self.scan()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 286, in scan
-    vars = self.scanVariables(reader)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 298, in scanVariables
-    value = getattr(parent, token, __UNDEF__)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 298, in getDicts
-    dicts.scandicts()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 388, in scandicts
-    self.addgroup(request, pagename)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 292, in addgroup
-    grp =  Group(request, groupname)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 48, in __init__
-    self.initRegex()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 57, in initRegex
-    cls.regex = re.compile(cls.regex, re.MULTILINE | re.UNICODE)
-  File "/usr/lib64/python2.6/re.py", line 190, in compile
-    return _compile(pattern, flags)
-  File "/usr/lib64/python2.6/re.py", line 238, in _compile
-    raise ValueError('Cannot process flags argument with a compiled pattern')
-ValueError: Cannot process flags argument with a compiled pattern
-</pre>
+== Proposal ==
+
+||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is pending approval from the second meeting ||
+
+=== Overall ===
+
+The CentOS board is the authority above this SIG. They can take any decision regarding the SIG if they have to, without refering to the SIG before, depending on the situations that could happen.
+
+=== Chair and co-chair ===
+
+ * The Config Management SIG is directed by a comitee.
+ * All the members of the comitees share the same responsibilities and tasks.
+ * Comitee members must be active members of the sig (e.g active in a project)
+ * The Comitee has members coming from at least 2 different "config management tools" (subprojects)
+ * Comitee members are elected by the members of the SIG for 12 months
+ * The CentOS board stays on top of that and can refuse that nomination or revoke any comitee members
+
+=== Chair tasks and responsibilities ===
+
+ * Comitee members are responsible for convoking and leading meetings.
+ * Comitee members are responsible for promoting the SIG out of the CentOS project, give it more visibility.
+ * Comitee members are responsible for welcoming new members and new projects in the SIG, following the relevant procedures.
+ * Comitee members are the people of contact if there are some conflicts in the SIG. If they are involved, you can refer to (a) the centos board sponsor (Currently Arrfab) or (b) the CentOS board.
+
+
+=== Members responsibilities ===
+
+ * Members have to follow any CentOS rules, code of conduct, etc
+ * Members can promote the SIG outside the CentOS project
+ * Members should prefer public communication channels (#centos-devel, mailing lists) if possible
+ * Members should do their best to attend the meetings and warn the SIG chair if they can not
+ * Comitee members are members and then also share those responsibilities.
