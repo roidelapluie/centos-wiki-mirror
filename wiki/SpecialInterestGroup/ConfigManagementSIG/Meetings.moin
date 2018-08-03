@@ -6,78 +6,22 @@ It comes from the following url and you can find the list of authors here:
 - Authors: https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG/Meetings?action=info
 
 ---
-<!--: spam
-Content-Type: text/html
+= Config Management SIG Meetings =
 
-<body><font style="color: white; font-size: 1px"> -->
-<body><font style="color: white; font-size: 1px"> --> -->
-</font> </font> </font> </script> </object> </blockquote> </pre>
-</table> </table> </table> </table> </table> </font> </font> </font>
-<pre>
-Traceback (most recent call last):
-  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 1207, in run
-    handler(self.page.page_name, self)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikiaction.py", line 802, in do_raw
-    if not request.user.may.read(pagename):
-  File "/usr/lib/python2.6/site-packages/MoinMoin/security.py", line 111, in _getPermission
-    allowed = self.request.cfg.acl_before.may(self.request, self.user.name, self._right)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikiacl.py", line 178, in may
-    is_group_member = request.dicts.has_member
-  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 298, in getDicts
-    dicts.scandicts()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 388, in scandicts
-    self.addgroup(request, pagename)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 292, in addgroup
-    grp =  Group(request, groupname)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 48, in __init__
-    self.initRegex()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 57, in initRegex
-    cls.regex = re.compile(cls.regex, re.MULTILINE | re.UNICODE)
-  File "/usr/lib64/python2.6/re.py", line 190, in compile
-    return _compile(pattern, flags)
-  File "/usr/lib64/python2.6/re.py", line 238, in _compile
-    raise ValueError('Cannot process flags argument with a compiled pattern')
-ValueError: Cannot process flags argument with a compiled pattern
+The meetings are hosted on the #centos-devel IRC channel.
 
-Additionally cgitb raised this exception:
-Traceback (most recent call last):
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 146, in handle
-    handler.handle()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 566, in handle
-    doc = view.format(formatter, self.context)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 343, in format
-    return formatter.section(self.formatContent(), {'class': 'cgitb'})
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 38, in formatContent
-    self.formatDebugInfo(),
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 83, in formatDebugInfo
-    self.formatTraceback(),
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 96, in formatTraceback
-    return self.formatAllTracebacks(self.formatOneTraceback)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/failure.py", line 108, in formatAllTracebacks
-    tracebacks.append(formatFuction((type, value, tb)))
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 423, in formatOneTraceback
-    self.formatter.orderedList(self.tracebackFrames(info),
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 434, in tracebackFrames
-    frames.append(frame.format(self.formatter))
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 197, in format
-    vars, highlight = self.scan()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 286, in scan
-    vars = self.scanVariables(reader)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/support/cgitb.py", line 298, in scanVariables
-    value = getattr(parent, token, __UNDEF__)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/request.py", line 298, in getDicts
-    dicts.scandicts()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 388, in scandicts
-    self.addgroup(request, pagename)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 292, in addgroup
-    grp =  Group(request, groupname)
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 48, in __init__
-    self.initRegex()
-  File "/usr/lib/python2.6/site-packages/MoinMoin/wikidicts.py", line 57, in initRegex
-    cls.regex = re.compile(cls.regex, re.MULTILINE | re.UNICODE)
-  File "/usr/lib64/python2.6/re.py", line 190, in compile
-    return _compile(pattern, flags)
-  File "/usr/lib64/python2.6/re.py", line 238, in _compile
-    raise ValueError('Cannot process flags argument with a compiled pattern')
-ValueError: Cannot process flags argument with a compiled pattern
-</pre>
+Learn more about the CentOS project meetings [https://www.centos.org/community/calendar/ here].
+
+== Meetings list ==
+
+|| '''#''' || '''Date'''                   || '''Minutes'''                     ||
+|| 0       || Wed Mar 23 16:00:00 UTC 2016 || [https://www.centos.org/minutes/2016/march/centos-devel.2016-03-23-16.03.html HTML] ||
+|| 1       || [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20160506T17 Fri May 6 17:00:00 UTC 2016] || To be published after the meeting ||
+
+== Meeting.next ==
+
+||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is there to prepare the next meeting. It will be flushed after each meeting, as its content should be in the meeting minutes. Each member of the SIG can add content there, and other topics proposed to the mailing list will be attached as well. ||
+
+ * Election of the SIG Committee and validation of the Governance rules. Proposed members of the committee: JulienPivotto, BenHosmer
+ * Follow up on the SCL prefixes
+ * Discussions about the CI proposal
