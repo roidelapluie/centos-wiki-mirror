@@ -18,9 +18,9 @@ The Configuration Management world is polarized in several parts: on one hand, t
 
 == Links ==
 
- * [:/News: News]
- * [:/Git: Git organisation]
- * [:/Meetings: Meetings]
+ * [[/News| News]]
+ * [[/Git| Git organisation]]
+ * [[/Meetings| Meetings]]
 
 == Scope ==
 
@@ -53,7 +53,7 @@ Some of the repositories might rely on other CentOS SIG, in particular the SCL S
 
 As an extra step, we would like to help the release of official CentOS vagrant boxes (and cloud images) with configuration management tools bundled.
 
-Vagrant include some [https://www.vagrantup.com/docs/provisioning/ provisioning] capabilities. If you have a supported config management tool in the base box, you can use it directly to adapt the base images with the vagrant up/vagrant provision images. If you want to use that feature now, you either need to build your own box or use one from vendor/3rd party. We would like the SIG to also publish and maintain Vagrant images with the tools we package.
+Vagrant include some [[https://www.vagrantup.com/docs/provisioning/|provisioning]] capabilities. If you have a supported config management tool in the base box, you can use it directly to adapt the base images with the vagrant up/vagrant provision images. If you want to use that feature now, you either need to build your own box or use one from vendor/3rd party. We would like the SIG to also publish and maintain Vagrant images with the tools we package.
 
 == Benefits ==
 
@@ -63,43 +63,43 @@ The benefits for the vendors will be clean RPM builds and testing of the package
 
 == Material ==
 
-[attachment:ignite-configmanagementcamp.pdf attachment:ignite-configmanagementcamp.pdf] Ignite talk given at Config Management Camp 2016
+[[attachment:ignite-configmanagementcamp.pdf|attachment:ignite-configmanagementcamp.pdf]] Ignite talk given at Config Management Camp 2016
 
 == Projects ==
 
 || '''Name''' || '''Description''' ||
-|| [:/Ansible:Ansible]|| Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. ||
-|| [:/Chef:Chef] || A systems integration framework, built to bring the benefits of configuration management to your entire infrastructure. ||
-|| [:/Puppet:Puppet] || Server automation framework and application. ||
-|| [:/Rudder:Rudder]|| An easy to use, web-driven, role-based solution for IT Infrastructure Automation & Compliance. ||
-|| [:/Salt:Salt]|| Software to automate the management and configuration of any infrastructure or application at scale. ||
+|| [[/Ansible|Ansible]]|| Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. ||
+|| [[/Chef|Chef]] || A systems integration framework, built to bring the benefits of configuration management to your entire infrastructure. ||
+|| [[/Puppet|Puppet]] || Server automation framework and application. ||
+|| [[/Rudder|Rudder]]|| An easy to use, web-driven, role-based solution for IT Infrastructure Automation & Compliance. ||
+|| [[/Salt|Salt]]|| Software to automate the management and configuration of any infrastructure or application at scale. ||
 
-[:/NewProject:How to add another project to this Special Interest Group?]
+[[/NewProject|How to add another project to this Special Interest Group?]]
 
 == Members ==
 
 || ''' Name ''' || ''' a.c.o nickname ''' || ''' Project ''' ||
-|| [:JulienPivotto:Julien Pivotto]* || roidelapluie || Puppet ||
-|| [:AndyTaylor:Andy Taylor] || ataylor || Puppet ||
-|| [:SteveTraylen:Steve Traylen] || strylen || Puppet ||
-|| [:BrandonJames:Brandon James] || bjames301 || Salt ||
-|| [:DavidMurphy:David Murphy] || dmurphy18 || Salt ||
-|| [:BenHosmer:Ben Hosmer] || bhosmer || Salt ||
-|| [:SamuelCassiba:Samuel Cassiba] || sbc || Chef ||
-|| [:VincentVanderkussen:Vincent Vanderkussen] || vincentvdk || Ansible ||
-|| [:JonathanClarke:Jonathan Clarke] || joooooon || Rudder ||
-|| [:AlexisMousset:Alexis Mousset] || amousset || Rudder ||
+|| [[JulienPivotto|Julien Pivotto]]* || roidelapluie || Puppet ||
+|| [[AndyTaylor|Andy Taylor]] || ataylor || Puppet ||
+|| [[SteveTraylen|Steve Traylen]] || strylen || Puppet ||
+|| [[BrandonJames|Brandon James]] || bjames301 || Salt ||
+|| [[DavidMurphy|David Murphy]] || dmurphy18 || Salt ||
+|| [[BenHosmer|Ben Hosmer]] || bhosmer || Salt ||
+|| [[SamuelCassiba|Samuel Cassiba]] || sbc || Chef ||
+|| [[VincentVanderkussen|Vincent Vanderkussen]] || vincentvdk || Ansible ||
+|| [[JonathanClarke|Jonathan Clarke]] || joooooon || Rudder ||
+|| [[AlexisMousset|Alexis Mousset]] || amousset || Rudder ||
 
-''* [:/Governance:Member of the comitee]''
+''* [[/Governance|Member of the comitee]]''
 
-The CentOS Board member mentoring the SIG is [:FabianArrotin:Fabian Arrotin]
+The CentOS Board member mentoring the SIG is [[FabianArrotin|Fabian Arrotin]]
 
-[:/NewMember:How to join this Special Interest Group?]
+[[/NewMember|How to join this Special Interest Group?]]
 
 == Supporters ==
 
 || ''' Name ''' || ''' FAS nickname ''' ||''' Project ''' || '''Notes''' ||
-|| [:SergeVanGinderachter:Serge van Ginderachter] || svg || Ansible || no deep involvement in close future ||
+|| [[SergeVanGinderachter|Serge van Ginderachter]] || svg || Ansible || no deep involvement in close future ||
 
 == koji tags ==
 
@@ -121,7 +121,7 @@ We want to use free software as much as possible. We use the CentOS internal inf
 
 However, as there is no code review tool integrated with git.c.o, we use github and github pull requests. We do not use gerrithub because it would be an extra layer that we do not manage and it would still require a presence on github. Still we would support any effort of the CentOS project to have an internal code review tool.
 
-We work under the [https://github.com/centos-sig-configmanagement CentOS Config Management SIG Github organisation]. [:/Git:Learn more about the Github Organisation].
+We work under the [[https://github.com/centos-sig-configmanagement|CentOS Config Management SIG Github organisation]]. [[/Git|Learn more about the Github Organisation]].
 
 == Communication ==
 
@@ -159,9 +159,9 @@ Invalid:
 
 == Meetings ==
 
-The next meeting will happen on [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20160413T15 Wed Apr 13 15:00:00 UTC 2016].
+The next meeting will happen on [[http://www.timeanddate.com/worldclock/fixedtime.html?iso=20160413T15|Wed Apr 13 15:00:00 UTC 2016]].
 
-We maintain a [:/Meetings:meeting list] with archives and topic for the next meeting.
+We maintain a [[/Meetings|meeting list]] with archives and topic for the next meeting.
 
 == Contact ==
 
