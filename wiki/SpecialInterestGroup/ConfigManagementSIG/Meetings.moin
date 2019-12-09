@@ -10,17 +10,17 @@ It comes from the following url and you can find the list of authors here:
 
 The meetings are hosted on the #centos-devel IRC channel.
 
-Learn more about the CentOS project meetings [https://www.centos.org/community/calendar/ here].
+Learn more about the CentOS project meetings [[https://www.centos.org/community/calendar/|here]].
 
 == Meetings list ==
 
 || '''#''' || '''Date'''                   || '''Minutes'''                     ||
-|| 0       || Wed Mar 23 16:00:00 UTC 2016 || [https://www.centos.org/minutes/2016/march/centos-devel.2016-03-23-16.03.html HTML] ||
-|| 1       || [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20160506T17 Fri May 6 17:00:00 UTC 2016] || To be published after the meeting ||
+|| 0       || Wed Mar 23 16:00:00 UTC 2016 || [[https://www.centos.org/minutes/2016/march/centos-devel.2016-03-23-16.03.html|HTML]] ||
+|| 1       || [[http://www.timeanddate.com/worldclock/fixedtime.html?iso=20160506T17|Fri May 6 17:00:00 UTC 2016]] || To be published after the meeting ||
 
 == Meeting.next ==
 
-||<class="lmimg blue" style="padding:0pt;text-align:center;"> attachment:ArtWork/WikiDesign/icon-admonition-info.png ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is there to prepare the next meeting. It will be flushed after each meeting, as its content should be in the meeting minutes. Each member of the SIG can add content there, and other topics proposed to the mailing list will be attached as well. ||
+||<class="lmimg blue" style="padding:0pt;text-align:center;"> {{attachment:ArtWork/WikiDesign/icon-admonition-info.png}} ||||<class="lmtxt blue" style="padding:0pt;text-align:left;">'''NOTE:''' The content of this section is there to prepare the next meeting. It will be flushed after each meeting, as its content should be in the meeting minutes. Each member of the SIG can add content there, and other topics proposed to the mailing list will be attached as well. ||
 
  * Election of the SIG Committee and validation of the Governance rules. Proposed members of the committee: JulienPivotto, BenHosmer
  * Follow up on the SCL prefixes
