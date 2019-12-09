@@ -9,7 +9,7 @@ It comes from the following url and you can find the list of authors here:
 == Git structure for the Config Management SIG ==
 
 
-We work under the [https://github.com/centos-sig-configmanagement centos-sig-configmanagement] github organization.
+We work under the [[https://github.com/centos-sig-configmanagement|centos-sig-configmanagement]] github organization.
 
 
 == Proposed CI flow ==
