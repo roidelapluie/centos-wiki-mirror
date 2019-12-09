@@ -10,20 +10,20 @@ It comes from the following url and you can find the list of authors here:
 
  * URL: https://puppetlabs.com/puppet/puppet-open-source
  * Source: https://github.com/puppet/puppet
- * Vendor: [https://puppetlabs.com/ Puppetlabs]
+ * Vendor: [[https://puppetlabs.com/|Puppetlabs]]
 
 === Commons topics ===
 
- * [:/SoftwareCollections:Software Collections]
+ * [[/SoftwareCollections|Software Collections]]
 
 == Puppet 4 ==
 
 === Packages ===
 
- * [:/RPM/Puppet4/Puppet:Puppet]
- * [:/RPM/Puppet4/Hiera:Hiera]
- * [:/RPM/Puppet4/Puppetserver:Puppetserver]
- * [:/RPM/Puppet4/PuppetDB:PuppetDB]
- * [:/RPM/Puppet4/Ruby:Ruby]
- * [:/RPM/Puppet4/yamlcpp:libyamlcpp]
- * [:/RPM/Puppet4/Cmake3:Cmake]
+ * [[/RPM/Puppet4/Puppet|Puppet]]
+ * [[/RPM/Puppet4/Hiera|Hiera]]
+ * [[/RPM/Puppet4/Puppetserver|Puppetserver]]
+ * [[/RPM/Puppet4/PuppetDB|PuppetDB]]
+ * [[/RPM/Puppet4/Ruby|Ruby]]
+ * [[/RPM/Puppet4/yamlcpp|libyamlcpp]]
+ * [[/RPM/Puppet4/Cmake3|Cmake]]
