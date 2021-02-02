@@ -69,51 +69,28 @@ The benefits for the vendors will be clean RPM builds and testing of the package
 
 || '''Name''' || '''Description''' ||
 || [[/Ansible|Ansible]]|| Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. ||
-|| [[/Chef|Chef]] || A systems integration framework, built to bring the benefits of configuration management to your entire infrastructure. ||
-|| [[/Puppet|Puppet]] || Server automation framework and application. ||
-|| [[/Rudder|Rudder]]|| An easy to use, web-driven, role-based solution for IT Infrastructure Automation & Compliance. ||
-|| [[/Salt|Salt]]|| Software to automate the management and configuration of any infrastructure or application at scale. ||
+
 
 [[/NewProject|How to add another project to this Special Interest Group?]]
 
 == Members ==
 
 || ''' Name ''' || ''' a.c.o nickname ''' || ''' Project ''' ||
-|| [[JulienPivotto|Julien Pivotto]]* || roidelapluie || Puppet ||
-|| [[AndyTaylor|Andy Taylor]] || ataylor || Puppet ||
-|| [[SteveTraylen|Steve Traylen]] || strylen || Puppet ||
-|| [[BrandonJames|Brandon James]] || bjames301 || Salt ||
-|| [[DavidMurphy|David Murphy]] || dmurphy18 || Salt ||
-|| [[BenHosmer|Ben Hosmer]] || bhosmer || Salt ||
-|| [[SamuelCassiba|Samuel Cassiba]] || sbc || Chef ||
-|| [[VincentVanderkussen|Vincent Vanderkussen]] || vincentvdk || Ansible ||
-|| [[JonathanClarke|Jonathan Clarke]] || joooooon || Rudder ||
-|| [[AlexisMousset|Alexis Mousset]] || amousset || Rudder ||
+|| [[FabianArrotin|Fabian Arrotin]]* || arrfab || Ansible / ARA ||
+
 
 ''* [[/Governance|Member of the comitee]]''
 
-The CentOS Board member mentoring the SIG is [[FabianArrotin|Fabian Arrotin]]
+The CentOS Board member mentoring the SIG is ?
 
 [[/NewMember|How to join this Special Interest Group?]]
-
-== Supporters ==
-
-|| ''' Name ''' || ''' FAS nickname ''' ||''' Project ''' || '''Notes''' ||
-|| [[SergeVanGinderachter|Serge van Ginderachter]] || svg || Ansible || no deep involvement in close future ||
 
 == koji tags ==
 
 Here is a preview of the tags the sig could use.
 
- * configmanagement7-puppet-43-el7: Puppet 4.3.z
- * configmanagement7-puppet-44-el7: Puppet 4.4.z
- * configmanagement7-puppet-buildchain-el7: Build tools needed to build Puppet 4.x: cmake3, gcc4.8
- * configmanagement7-puppet-extras-el7: Community packages around puppet: puppetboard, puppetexplorer, vim-puppet
- * configmanagement7-salt-20158-el7: Salt 2015.8.y
- * configmanagement7-salt-20163-el7: Salt 2016.3.y
- * configmanagement7-chef-12-el7: Chef 12.y
  * configmanagement7-ansible-20-el7: Ansible 2.0.y
- * configmanagement7-rudder-3-el7: Rudder 3.y
+
 
 == Tools ==
 
